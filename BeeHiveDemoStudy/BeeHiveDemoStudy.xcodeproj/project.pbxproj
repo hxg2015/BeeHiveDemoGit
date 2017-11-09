@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A981F323308C37745527FA9F /* libPods-BeeHiveDemoStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D035045D8DFAAE70BEFC9CA1 /* libPods-BeeHiveDemoStudy.a */; };
+		FD35AFE51FB4B30700425290 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35AFE41FB4B30700425290 /* ViewController.m */; };
+		FD35AFE81FB4B30700425290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD35AFE61FB4B30700425290 /* Main.storyboard */; };
+		FD35AFEA1FB4B30700425290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD35AFE91FB4B30700425290 /* Assets.xcassets */; };
+		FD35AFED1FB4B30700425290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD35AFEB1FB4B30700425290 /* LaunchScreen.storyboard */; };
+		FD35AFF01FB4B30700425290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35AFEF1FB4B30700425290 /* main.m */; };
+		FD35AFFA1FB4B30700425290 /* BeeHiveDemoStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35AFF91FB4B30700425290 /* BeeHiveDemoStudyTests.m */; };
+		FD35B0051FB4B30700425290 /* BeeHiveDemoStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35B0041FB4B30700425290 /* BeeHiveDemoStudyUITests.m */; };
+		FD35B0141FB4B58400425290 /* BHDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35B0121FB4B58400425290 /* BHDAppDelegate.m */; };
+		FD35B0311FB4B5E100425290 /* ShopModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35B0171FB4B5E100425290 /* ShopModule.m */; };
+		FD35B0321FB4B5E100425290 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35B0191FB4B5E100425290 /* ShopViewController.m */; };
+		FD35B0331FB4B5E100425290 /* BHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35B0241FB4B5E100425290 /* BHHomeViewController.m */; };
+		FD35B0341FB4B5E100425290 /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35B0261FB4B5E100425290 /* HomeDetailViewController.m */; };
+		FD35B0351FB4B5E100425290 /* HomeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35B0281FB4B5E100425290 /* HomeModule.m */; };
+		FD35B0361FB4B5E100425290 /* MyUserTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35B02B1FB4B5E100425290 /* MyUserTrackViewController.m */; };
+		FD35B0371FB4B5E100425290 /* TradeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35B02E1FB4B5E100425290 /* TradeModule.m */; };
+		FD35B0381FB4B5E100425290 /* TradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35B0301FB4B5E100425290 /* TradeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD35AFF61FB4B30700425290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD35AFD51FB4B30700425290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD35AFDC1FB4B30700425290;
+			remoteInfo = BeeHiveDemoStudy;
+		};
+		FD35B0011FB4B30700425290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD35AFD51FB4B30700425290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD35AFDC1FB4B30700425290;
+			remoteInfo = BeeHiveDemoStudy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57234DCADFB24AAA73D68560 /* Pods-BeeHiveDemoStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeHiveDemoStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeeHiveDemoStudy/Pods-BeeHiveDemoStudy.release.xcconfig"; sourceTree = "<group>"; };
+		644A0E5A2CFE0483753A1E63 /* Pods-BeeHiveDemoStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeHiveDemoStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeeHiveDemoStudy/Pods-BeeHiveDemoStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		D035045D8DFAAE70BEFC9CA1 /* libPods-BeeHiveDemoStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeeHiveDemoStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD35AFDD1FB4B30700425290 /* BeeHiveDemoStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeHiveDemoStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD35AFE31FB4B30700425290 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD35AFE41FB4B30700425290 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD35AFE71FB4B30700425290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD35AFE91FB4B30700425290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD35AFEC1FB4B30700425290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD35AFEE1FB4B30700425290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD35AFEF1FB4B30700425290 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD35AFF51FB4B30700425290 /* BeeHiveDemoStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeHiveDemoStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD35AFF91FB4B30700425290 /* BeeHiveDemoStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeHiveDemoStudyTests.m; sourceTree = "<group>"; };
+		FD35AFFB1FB4B30700425290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD35B0001FB4B30700425290 /* BeeHiveDemoStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeHiveDemoStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD35B0041FB4B30700425290 /* BeeHiveDemoStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeHiveDemoStudyUITests.m; sourceTree = "<group>"; };
+		FD35B0061FB4B30700425290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD35B0121FB4B58400425290 /* BHDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHDAppDelegate.m; sourceTree = "<group>"; };
+		FD35B0131FB4B58400425290 /* BHDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHDAppDelegate.h; sourceTree = "<group>"; };
+		FD35B0161FB4B5E100425290 /* ShopModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopModule.h; sourceTree = "<group>"; };
+		FD35B0171FB4B5E100425290 /* ShopModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopModule.m; sourceTree = "<group>"; };
+		FD35B0181FB4B5E100425290 /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		FD35B0191FB4B5E100425290 /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		FD35B01B1FB4B5E100425290 /* AppConfigServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfigServiceProtocol.h; sourceTree = "<group>"; };
+		FD35B01C1FB4B5E100425290 /* AppUISkeletonServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUISkeletonServiceProtocol.h; sourceTree = "<group>"; };
+		FD35B01D1FB4B5E100425290 /* BHDemoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHDemoService.h; sourceTree = "<group>"; };
+		FD35B01E1FB4B5E100425290 /* HomeServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeServiceProtocol.h; sourceTree = "<group>"; };
+		FD35B01F1FB4B5E100425290 /* MyUserTrackServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUserTrackServiceProtocol.h; sourceTree = "<group>"; };
+		FD35B0201FB4B5E100425290 /* ShopServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopServiceProtocol.h; sourceTree = "<group>"; };
+		FD35B0211FB4B5E100425290 /* TradeServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeServiceProtocol.h; sourceTree = "<group>"; };
+		FD35B0231FB4B5E100425290 /* BHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHHomeViewController.h; sourceTree = "<group>"; };
+		FD35B0241FB4B5E100425290 /* BHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHHomeViewController.m; sourceTree = "<group>"; };
+		FD35B0251FB4B5E100425290 /* HomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDetailViewController.h; sourceTree = "<group>"; };
+		FD35B0261FB4B5E100425290 /* HomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDetailViewController.m; sourceTree = "<group>"; };
+		FD35B0271FB4B5E100425290 /* HomeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModule.h; sourceTree = "<group>"; };
+		FD35B0281FB4B5E100425290 /* HomeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModule.m; sourceTree = "<group>"; };
+		FD35B02A1FB4B5E100425290 /* MyUserTrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUserTrackViewController.h; sourceTree = "<group>"; };
+		FD35B02B1FB4B5E100425290 /* MyUserTrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUserTrackViewController.m; sourceTree = "<group>"; };
+		FD35B02D1FB4B5E100425290 /* TradeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeModule.h; sourceTree = "<group>"; };
+		FD35B02E1FB4B5E100425290 /* TradeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeModule.m; sourceTree = "<group>"; };
+		FD35B02F1FB4B5E100425290 /* TradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeViewController.h; sourceTree = "<group>"; };
+		FD35B0301FB4B5E100425290 /* TradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD35AFDA1FB4B30700425290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A981F323308C37745527FA9F /* libPods-BeeHiveDemoStudy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD35AFF21FB4B30700425290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD35AFFD1FB4B30700425290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DED06889EF9705E599D11AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D035045D8DFAAE70BEFC9CA1 /* libPods-BeeHiveDemoStudy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E292EBE380F4732C31FE51A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				644A0E5A2CFE0483753A1E63 /* Pods-BeeHiveDemoStudy.debug.xcconfig */,
+				57234DCADFB24AAA73D68560 /* Pods-BeeHiveDemoStudy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD35AFD41FB4B30700425290 = {
+			isa = PBXGroup;
+			children = (
+				FD35AFDF1FB4B30700425290 /* BeeHiveDemoStudy */,
+				FD35AFF81FB4B30700425290 /* BeeHiveDemoStudyTests */,
+				FD35B0031FB4B30700425290 /* BeeHiveDemoStudyUITests */,
+				FD35AFDE1FB4B30700425290 /* Products */,
+				6E292EBE380F4732C31FE51A /* Pods */,
+				5DED06889EF9705E599D11AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD35AFDE1FB4B30700425290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD35AFDD1FB4B30700425290 /* BeeHiveDemoStudy.app */,
+				FD35AFF51FB4B30700425290 /* BeeHiveDemoStudyTests.xctest */,
+				FD35B0001FB4B30700425290 /* BeeHiveDemoStudyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD35AFDF1FB4B30700425290 /* BeeHiveDemoStudy */ = {
+			isa = PBXGroup;
+			children = (
+				FD35B0221FB4B5E100425290 /* Home */,
+				FD35B01A1FB4B5E100425290 /* Services */,
+				FD35B0151FB4B5E100425290 /* Shop */,
+				FD35B02C1FB4B5E100425290 /* Trade */,
+				FD35B0291FB4B5E100425290 /* UserTrack */,
+				FD35B0131FB4B58400425290 /* BHDAppDelegate.h */,
+				FD35B0121FB4B58400425290 /* BHDAppDelegate.m */,
+				FD35AFE31FB4B30700425290 /* ViewController.h */,
+				FD35AFE41FB4B30700425290 /* ViewController.m */,
+				FD35AFE61FB4B30700425290 /* Main.storyboard */,
+				FD35AFE91FB4B30700425290 /* Assets.xcassets */,
+				FD35AFEB1FB4B30700425290 /* LaunchScreen.storyboard */,
+				FD35AFEE1FB4B30700425290 /* Info.plist */,
+				FD35AFEF1FB4B30700425290 /* main.m */,
+			);
+			path = BeeHiveDemoStudy;
+			sourceTree = "<group>";
+		};
+		FD35AFF81FB4B30700425290 /* BeeHiveDemoStudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD35AFF91FB4B30700425290 /* BeeHiveDemoStudyTests.m */,
+				FD35AFFB1FB4B30700425290 /* Info.plist */,
+			);
+			path = BeeHiveDemoStudyTests;
+			sourceTree = "<group>";
+		};
+		FD35B0031FB4B30700425290 /* BeeHiveDemoStudyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD35B0041FB4B30700425290 /* BeeHiveDemoStudyUITests.m */,
+				FD35B0061FB4B30700425290 /* Info.plist */,
+			);
+			path = BeeHiveDemoStudyUITests;
+			sourceTree = "<group>";
+		};
+		FD35B0151FB4B5E100425290 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				FD35B0161FB4B5E100425290 /* ShopModule.h */,
+				FD35B0171FB4B5E100425290 /* ShopModule.m */,
+				FD35B0181FB4B5E100425290 /* ShopViewController.h */,
+				FD35B0191FB4B5E100425290 /* ShopViewController.m */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		FD35B01A1FB4B5E100425290 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FD35B01B1FB4B5E100425290 /* AppConfigServiceProtocol.h */,
+				FD35B01C1FB4B5E100425290 /* AppUISkeletonServiceProtocol.h */,
+				FD35B01D1FB4B5E100425290 /* BHDemoService.h */,
+				FD35B01E1FB4B5E100425290 /* HomeServiceProtocol.h */,
+				FD35B01F1FB4B5E100425290 /* MyUserTrackServiceProtocol.h */,
+				FD35B0201FB4B5E100425290 /* ShopServiceProtocol.h */,
+				FD35B0211FB4B5E100425290 /* TradeServiceProtocol.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FD35B0221FB4B5E100425290 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FD35B0231FB4B5E100425290 /* BHHomeViewController.h */,
+				FD35B0241FB4B5E100425290 /* BHHomeViewController.m */,
+				FD35B0251FB4B5E100425290 /* HomeDetailViewController.h */,
+				FD35B0261FB4B5E100425290 /* HomeDetailViewController.m */,
+				FD35B0271FB4B5E100425290 /* HomeModule.h */,
+				FD35B0281FB4B5E100425290 /* HomeModule.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FD35B0291FB4B5E100425290 /* UserTrack */ = {
+			isa = PBXGroup;
+			children = (
+				FD35B02A1FB4B5E100425290 /* MyUserTrackViewController.h */,
+				FD35B02B1FB4B5E100425290 /* MyUserTrackViewController.m */,
+			);
+			path = UserTrack;
+			sourceTree = "<group>";
+		};
+		FD35B02C1FB4B5E100425290 /* Trade */ = {
+			isa = PBXGroup;
+			children = (
+				FD35B02D1FB4B5E100425290 /* TradeModule.h */,
+				FD35B02E1FB4B5E100425290 /* TradeModule.m */,
+				FD35B02F1FB4B5E100425290 /* TradeViewController.h */,
+				FD35B0301FB4B5E100425290 /* TradeViewController.m */,
+			);
+			path = Trade;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD35AFDC1FB4B30700425290 /* BeeHiveDemoStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD35B0091FB4B30700425290 /* Build configuration list for PBXNativeTarget "BeeHiveDemoStudy" */;
+			buildPhases = (
+				4BB6415FEEE3B5BC0E374958 /* [CP] Check Pods Manifest.lock */,
+				FD35AFD91FB4B30700425290 /* Sources */,
+				FD35AFDA1FB4B30700425290 /* Frameworks */,
+				FD35AFDB1FB4B30700425290 /* Resources */,
+				AFE8CF499213CC289B46C73A /* [CP] Embed Pods Frameworks */,
+				F34B2ED013AC8AFD4FCD90B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeHiveDemoStudy;
+			productName = BeeHiveDemoStudy;
+			productReference = FD35AFDD1FB4B30700425290 /* BeeHiveDemoStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD35AFF41FB4B30700425290 /* BeeHiveDemoStudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD35B00C1FB4B30700425290 /* Build configuration list for PBXNativeTarget "BeeHiveDemoStudyTests" */;
+			buildPhases = (
+				FD35AFF11FB4B30700425290 /* Sources */,
+				FD35AFF21FB4B30700425290 /* Frameworks */,
+				FD35AFF31FB4B30700425290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD35AFF71FB4B30700425290 /* PBXTargetDependency */,
+			);
+			name = BeeHiveDemoStudyTests;
+			productName = BeeHiveDemoStudyTests;
+			productReference = FD35AFF51FB4B30700425290 /* BeeHiveDemoStudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD35AFFF1FB4B30700425290 /* BeeHiveDemoStudyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD35B00F1FB4B30700425290 /* Build configuration list for PBXNativeTarget "BeeHiveDemoStudyUITests" */;
+			buildPhases = (
+				FD35AFFC1FB4B30700425290 /* Sources */,
+				FD35AFFD1FB4B30700425290 /* Frameworks */,
+				FD35AFFE1FB4B30700425290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD35B0021FB4B30700425290 /* PBXTargetDependency */,
+			);
+			name = BeeHiveDemoStudyUITests;
+			productName = BeeHiveDemoStudyUITests;
+			productReference = FD35B0001FB4B30700425290 /* BeeHiveDemoStudyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD35AFD51FB4B30700425290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = hxg;
+				TargetAttributes = {
+					FD35AFDC1FB4B30700425290 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FD35AFF41FB4B30700425290 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD35AFDC1FB4B30700425290;
+					};
+					FD35AFFF1FB4B30700425290 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD35AFDC1FB4B30700425290;
+					};
+				};
+			};
+			buildConfigurationList = FD35AFD81FB4B30700425290 /* Build configuration list for PBXProject "BeeHiveDemoStudy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD35AFD41FB4B30700425290;
+			productRefGroup = FD35AFDE1FB4B30700425290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD35AFDC1FB4B30700425290 /* BeeHiveDemoStudy */,
+				FD35AFF41FB4B30700425290 /* BeeHiveDemoStudyTests */,
+				FD35AFFF1FB4B30700425290 /* BeeHiveDemoStudyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD35AFDB1FB4B30700425290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD35AFED1FB4B30700425290 /* LaunchScreen.storyboard in Resources */,
+				FD35AFEA1FB4B30700425290 /* Assets.xcassets in Resources */,
+				FD35AFE81FB4B30700425290 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD35AFF31FB4B30700425290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD35AFFE1FB4B30700425290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BB6415FEEE3B5BC0E374958 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeeHiveDemoStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFE8CF499213CC289B46C73A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeeHiveDemoStudy/Pods-BeeHiveDemoStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F34B2ED013AC8AFD4FCD90B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BeeHiveDemoStudy/Pods-BeeHiveDemoStudy-resources.sh",
+				"${PODS_ROOT}/BeeHive/BeeHive/BeeHive.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeeHiveDemoStudy/Pods-BeeHiveDemoStudy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD35AFD91FB4B30700425290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD35B0361FB4B5E100425290 /* MyUserTrackViewController.m in Sources */,
+				FD35AFE51FB4B30700425290 /* ViewController.m in Sources */,
+				FD35B0381FB4B5E100425290 /* TradeViewController.m in Sources */,
+				FD35B0141FB4B58400425290 /* BHDAppDelegate.m in Sources */,
+				FD35AFF01FB4B30700425290 /* main.m in Sources */,
+				FD35B0331FB4B5E100425290 /* BHHomeViewController.m in Sources */,
+				FD35B0321FB4B5E100425290 /* ShopViewController.m in Sources */,
+				FD35B0371FB4B5E100425290 /* TradeModule.m in Sources */,
+				FD35B0341FB4B5E100425290 /* HomeDetailViewController.m in Sources */,
+				FD35B0351FB4B5E100425290 /* HomeModule.m in Sources */,
+				FD35B0311FB4B5E100425290 /* ShopModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD35AFF11FB4B30700425290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD35AFFA1FB4B30700425290 /* BeeHiveDemoStudyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD35AFFC1FB4B30700425290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD35B0051FB4B30700425290 /* BeeHiveDemoStudyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD35AFF71FB4B30700425290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD35AFDC1FB4B30700425290 /* BeeHiveDemoStudy */;
+			targetProxy = FD35AFF61FB4B30700425290 /* PBXContainerItemProxy */;
+		};
+		FD35B0021FB4B30700425290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD35AFDC1FB4B30700425290 /* BeeHiveDemoStudy */;
+			targetProxy = FD35B0011FB4B30700425290 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD35AFE61FB4B30700425290 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD35AFE71FB4B30700425290 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD35AFEB1FB4B30700425290 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD35AFEC1FB4B30700425290 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD35B0071FB4B30700425290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD35B0081FB4B30700425290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD35B00A1FB4B30700425290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644A0E5A2CFE0483753A1E63 /* Pods-BeeHiveDemoStudy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C578BGF238;
+				INFOPLIST_FILE = BeeHiveDemoStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxg.BeeHiveDemoStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD35B00B1FB4B30700425290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57234DCADFB24AAA73D68560 /* Pods-BeeHiveDemoStudy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C578BGF238;
+				INFOPLIST_FILE = BeeHiveDemoStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxg.BeeHiveDemoStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD35B00D1FB4B30700425290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C578BGF238;
+				INFOPLIST_FILE = BeeHiveDemoStudyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxg.BeeHiveDemoStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeHiveDemoStudy.app/BeeHiveDemoStudy";
+			};
+			name = Debug;
+		};
+		FD35B00E1FB4B30700425290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C578BGF238;
+				INFOPLIST_FILE = BeeHiveDemoStudyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxg.BeeHiveDemoStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeHiveDemoStudy.app/BeeHiveDemoStudy";
+			};
+			name = Release;
+		};
+		FD35B0101FB4B30700425290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C578BGF238;
+				INFOPLIST_FILE = BeeHiveDemoStudyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxg.BeeHiveDemoStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeeHiveDemoStudy;
+			};
+			name = Debug;
+		};
+		FD35B0111FB4B30700425290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C578BGF238;
+				INFOPLIST_FILE = BeeHiveDemoStudyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxg.BeeHiveDemoStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeeHiveDemoStudy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD35AFD81FB4B30700425290 /* Build configuration list for PBXProject "BeeHiveDemoStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD35B0071FB4B30700425290 /* Debug */,
+				FD35B0081FB4B30700425290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD35B0091FB4B30700425290 /* Build configuration list for PBXNativeTarget "BeeHiveDemoStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD35B00A1FB4B30700425290 /* Debug */,
+				FD35B00B1FB4B30700425290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD35B00C1FB4B30700425290 /* Build configuration list for PBXNativeTarget "BeeHiveDemoStudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD35B00D1FB4B30700425290 /* Debug */,
+				FD35B00E1FB4B30700425290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD35B00F1FB4B30700425290 /* Build configuration list for PBXNativeTarget "BeeHiveDemoStudyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD35B0101FB4B30700425290 /* Debug */,
+				FD35B0111FB4B30700425290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD35AFD51FB4B30700425290 /* Project object */;
+}
